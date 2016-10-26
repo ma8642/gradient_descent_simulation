@@ -14,7 +14,7 @@ This simulation allows users to observe a seeker robot finding the shortest path
 
 # Set-Up:
 
-1.  If you have not yet downloaded Netlogo, please find it here:  https://ccl.northwestern.edu/netlogo/download.shtml and follow thier download instructions.
+1.  If you have not yet downloaded Netlogo, please find it here:  https://ccl.northwestern.edu/netlogo/download.shtml and follow the download instructions.
 
 2.  Go to the menu path File > Open > autonomous_routing.nlogo.
 
