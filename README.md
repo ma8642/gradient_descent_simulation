@@ -13,13 +13,18 @@ This simulation allows users to observe a seeker robot finding the shortest path
 
 Set-Up:
 
-If you have not yet downloaded Netlogo, please find it here:  https://ccl.northwestern.edu/netlogo/download.shtml and follow thier download instructions.1.
-Go to the menu path File > Open > This file.
-When it loads, the interface should have two buttons, 4 sliders, one drop-down menu, and a large blank (black) window.
+1.  If you have not yet downloaded Netlogo, please find it here:  https://ccl.northwestern.edu/netlogo/download.shtml and follow thier download instructions.1.
+
+2.  Go to the menu path File > Open > filename.
+
+3.  When it loads, the interface should have two buttons, 4 sliders, one drop-down menu, and a large blank (black) window.
 Set the sliders to “num-seeds” = 1, “num-seekers” = 1, “num-obstacles” = 5, and “obstacle-height” = 21.  Select a color from the “gradient-color” drop-down menu and then click the “setup” button.
-Now the interaction window should look like this.
-Press “go” twice.  Once to start the simulation, and once to stop it.
-Now the seeker robot speeds across the screen leaving behind a yellow trail which is one of the possible shortest paths to the goal.
+
+4.  Now the simulation window should have loaded the simulation.
+
+5.  Press “go” twice.  Once to start the simulation, and once to stop it.
+
+6.  Now the seeker robot speeds across the screen leaving behind a yellow trail which is one of the possible shortest paths to the goal.
 You can change the configuration of the problem setup using the sliders.  Remember to press “setup” each time before you press “go.”
 
 
