@@ -16,7 +16,7 @@ This simulation allows users to observe a seeker robot finding the shortest path
 
 1.  If you have not yet downloaded Netlogo, please find it here:  https://ccl.northwestern.edu/netlogo/download.shtml and follow thier download instructions.
 
-2.  Go to the menu path File > Open > filename.
+2.  Go to the menu path File > Open > autonomous_routing.nlogo.
 
 3.  When it loads, the interface should have two buttons, 4 sliders, one drop-down menu, and a large blank (black) window.
 Set the sliders to “num-seeds” = 1, “num-seekers” = 1, “num-obstacles” = 5, and “obstacle-height” = 21.  Select a color from the “gradient-color” drop-down menu and then click the “setup” button.
