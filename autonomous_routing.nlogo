@@ -47,7 +47,7 @@ to setup
     set pen-size 3
   ]
 
-  ;;;GRADIENT STUFF
+  ;;;GRADIENT SET-UP
   ask patches[
     set gradient-val 1000
     set obstacle-val 1000
@@ -56,7 +56,7 @@ to setup
     ]
   ]
 
-  ;;;OBSTACLE STUFF
+  ;;;OBSTACLE SET-UP
   if num-obstacles > 0[  ;if user chose to have an obstacle make obstacle
     let interval floor (world-width / (num-obstacles + 1))  ;decides interval that obstacles will be places
     let start-val interval
@@ -64,7 +64,6 @@ to setup
     show word "The list is " it-list
     let every-other true  ;because we want alternating top and bottom walls
     foreach it-list [
-      ;show ?
       ifelse every-other = true [
         make-bottom-wall start-val
         set every-other false
@@ -76,7 +75,7 @@ to setup
     ]
   ]
 
-  ;sets up values
+  ;sets up gradient
   set-up-gradient
 
   ;sets up colors
@@ -93,13 +92,13 @@ to setup
 
 end
 
-;this is where the action happens
+;;;THIS IS WHERE THE ACTION HAPPENS
 to go
   ask seekers [  ;each step seeker is choosing minimum gradient-val patch
     let p min-grad-patch
     let a [pxcor] of p
     let b [pycor] of p
-    ;if a b not xycor of seed
+
     if [gradient-val] of patch-here != 0  ;stop when you get to seed
       [setxy a b]
   ]
