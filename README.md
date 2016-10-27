@@ -20,12 +20,15 @@ This simulation allows users to observe a seeker robot finding the shortest path
 
 3.  When it loads, the interface should have two buttons, 4 sliders, one drop-down menu, and a large blank (black) window.
 Set the sliders to “num-seeds” = 1, “num-seekers” = 1, “num-obstacles” = 5, and “obstacle-height” = 21.  Select a color from the “gradient-color” drop-down menu and then click the “setup” button.
+![alt tag](https://github.com/ma8642/gradient_descent_simulation/blob/master/pre_set_up.png)
 
 4.  Now the simulation window should have loaded the simulation.
+![alt tag](https://github.com/ma8642/gradient_descent_simulation/blob/master/fully_set_up.png)
 
 5.  Press “go” twice.  Once to start the simulation, and once to stop it.
 
 6.  Now the seeker robot speeds across the screen leaving behind a yellow trail which is one of the possible shortest paths to the goal.
+![alt tag](https://github.com/ma8642/gradient_descent_simulation/blob/master/run_program.png)
 You can change the configuration of the problem setup using the sliders.  Remember to press “setup” each time before you press “go.”
 
 
