@@ -61,7 +61,7 @@ to setup
     let interval floor (world-width / (num-obstacles + 1))  ;decides interval that obstacles will be places
     let start-val interval
     let it-list n-values num-obstacles [? + 1]  ;create a list of numbers from 1 - num-obstacles to iterate through
-    show word "The list is " it-list
+    ;show word "The list is " it-list ;print out list, debug
     let every-other true  ;because we want alternating top and bottom walls
     foreach it-list [
       ifelse every-other = true [
@@ -153,7 +153,7 @@ to make-bottom-wall [x]  ;makes a wall that starts from y = 0
 end
 
 to make-top-wall [x]  ;makes a wall that starts from y = 32
-  output-write x
+  ;output-write x ;print out x, debug
   let len 0
   let y 32
   while [len + 1 <= obstacle-height][
