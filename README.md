@@ -4,12 +4,12 @@
 This is a simulation of a seeker robot performing a greedy depth-first-search to reach a goal robot using gradient descent.
 
 # Long Description:
-This is the code portion of a summfdkslaer research project that I completed as an AMGEN Scholar at Harvard University from Jun - Aug 2016.
+This is the code portion of a summer research project that I completed as an AMGEN Scholar at Harvard University from Jun - Aug 2016.
 
 The project is called “Autonomous Routing through a Smart Material” and I made an algorithm that would allow a seeker robot to autonomously form a shortest-path to a goal robot by following a gradient.  The first half of the project was about testing the algorithm on physical robots and in the second half I wrote a simulation of the problem in Netlogo agent-based software.  That is the code you will find here.
 
 
-This simulation allows users to observe a seeker robot finding the shortest path to a goal robot.  Paths are calculated in manhattan distances (ie. no diagonal moves are allowed).  Users can add multiple goal locations, and the seeker will always go to the closest one.  Users can also add barriers, and multiple seekers.
+This simulation allows users to observe a seeker robot finding the shortest path to a goal robot.  Paths are calculated in manhattan distances (ie. no diagonal moves are allowed).  Users can add multiple goal locations, and the seeker will always go to the closest one.  Users can also add barriers and multiple seekers.
 
 
 # Set-Up:
