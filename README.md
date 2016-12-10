@@ -32,7 +32,7 @@ Set the sliders to “num-seeds” = 1, “num-seekers” = 1, “num-obstacles�
 You can change the configuration of the problem setup using the sliders.  Remember to press “setup” each time before you press “go.”
 
 
-This simulation is pretty static, but I will be creating a more dynamic one over the next 6 months for my Senior Project, which you can find here.
+This simulation is pretty static, but I will be creating a more dynamic one over the next 6 months for my Senior Project, which I will upload upon completion.
 
 
 
